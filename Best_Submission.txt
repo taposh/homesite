@@ -1,0 +1,23 @@
+Sat, 23 Jan 2016 04:57:36 Edit description 	ens13.txt 	0.96838 
+
+Desctiption:
+
+Ensemble of the following previous submissions:
+
+Xgboost_h2o_submission_ensemble-ensemble_55.csv
+ga_new2.csv				
+ga_new3.csv	
+ga_new4.csv	
+ga_newer31.csv	
+ga_newer32.csv
+ga_newer33.csv
+xgb1_1.csv
+xgb1_3.csv
+xgb_1.csv
+xgb_Shize_stop_3.csv
+xgb_Shize_stop_4.csv
+xgb_Shize_stop_5.csv
+
+Ensemble Method:
+
+python Ensemble/Kaggle-Ensemble-Guide-master/kaggle_rankavg.py  "*.csv"  "ens13.txt"
